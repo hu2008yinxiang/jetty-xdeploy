@@ -1,4 +1,4 @@
-FORM jetty:9
+FROM jetty:9
 MAINTAINER Ian Hu <hu2008yinxiang@163.com>
 # 拷贝jar
 COPY target/jetty-xdeploy-1.0.0.jar /usr/local/jetty/lib/jetty-xdeploy-1.0.0.jar
